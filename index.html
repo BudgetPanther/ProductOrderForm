@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Product Order Form Assignment</title>
+</head>
+<body>
+  <form method="post"action="">
+    <div>
+      <label>Login to save your order!</label>
+      <input type="text" name="user" id="user" placeholder="Enter username/email">
+      <input type="password"placeholder="password" required>
+      <input type="submit" value="Sign In">
+    </div>
+    <br>
+    <div><h2>Truffula Tree Products</h2></div>
+    <div>
+      <select>
+        <option selected>-select a product-</option>
+        <option value="Thing One">Thneed</option>
+        <option value="Thing Two">Regular boring "shirt"</option>
+      </select>
+    </div>
+    <div>
+      <input type="radio" id="green" name="color">
+      <label for="green">Green Stripped</label>
+    </div>
+    <div>
+      <input type="radio" id="pink" name="color">
+      <label for="pink">Pink [LIMITED TIME]</label>
+    </div>
+    <div>
+      <input type="radio" id="hawaiian" name="color">
+      <label for="hawaiian">Hawaiian Floral Print</label>
+    </div>
+    <div>
+      <label for="size">Size</label><br />
+      <input type="range" id="size" name="size" list="markers" />
+      <datalist id="markers">
+        <option value="0"></option>
+        <option value="33"></option>
+        <option value="66"></option>
+        <option value="100"></option>
+      </datalist>
+    </div>
+    <div>
+      <textarea rows="4" cols="50">Leave any aditional comments or delivery specifics.</textarea>
+      <br>
+      <input type="checkbox" id="accept" value="accept" required>
+      <label for="accept">I accept all the provided information and will proceed to order</label>
+      <br>
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</body>
+</html>
